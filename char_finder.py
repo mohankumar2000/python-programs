@@ -1,5 +1,5 @@
 str1="hi this is abc from chennai abc"
-a=list(str1.split(" "))
+a=list(str1.split())
 print(a)
 for i in range(len(a)):
     if(a[i]=="abc"):
